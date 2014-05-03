@@ -1,0 +1,17 @@
+scrollbox#PlacesToolbarItems {
+  height: 22px !important;
+}
+
+scrollbox#PlacesToolbarItems > toolbarbutton.bookmark-item > .toolbarbutton-icon {
+  display: none !important;
+}
+
+toolbarbutton.bookmark-item:not(.subviewbutton):not(#bookmarks-menu-button),
+#personal-bookmarks[cui-areatype="toolbar"]:not([overflowedItem=true]) > #bookmarks-toolbar-placeholder {
+  max-height: 22px !important;
+  min-height: 22px !important;
+}
+
+#nav-bar-customization-target {
+  padding: 4px 4px 1px !important;
+}
